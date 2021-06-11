@@ -132,12 +132,15 @@ table {
 
 /* Body styling */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 800px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
-  box-sizing: border-box;
 }
 
 /* Header styling */
@@ -198,6 +201,7 @@ li:first-child {
 
 .horizontal {
   width: 100%;
+  height: 500px;
   font-size: 50px;
   text-align: center;
   padding-bottom: 15px;
@@ -214,10 +218,7 @@ p {
 
 .horizontal img {
   width: 100%;
-}
-
-.bigColumn {
-  width: 100%;
+  height: 50%;
 }
 
 .column1 {
