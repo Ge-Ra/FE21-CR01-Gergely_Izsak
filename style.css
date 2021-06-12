@@ -184,10 +184,31 @@ li {
   padding: 15px 5px;
 }
 
+a:hover {
+  background-color: rgb(170, 67, 67);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
 li:hover {
   background-color: rgb(170, 67, 67);
   text-decoration: underline;
   cursor: pointer;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
 }
 
 li:first-child {

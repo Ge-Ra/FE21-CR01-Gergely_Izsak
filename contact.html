@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
       rel="stylesheet"
     />
+    <style>
+      form {
+        padding: 1rem;
+      }
+    </style>
   </head>
   <body>
     <header id="header">
@@ -25,7 +30,18 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <main></main>
+    <main>
+      <form>
+        <input type="text" name="firstname" placeholder="First name" >
+        <input type="text" name="lastname" placeholder="Last name" ><br><br>
+        <input type="email" name="email" placeholder="E-mail adress" >
+        <input type="password" name="password" placeholder="Enter password" ><br><br>
+        <input type="radio" name="genger" value="Male">Male<br>
+        <input type="radio" name="genger" value="Female">Female<br><br>
+        <textarea cols="50" rows="10" placeholder="Your message here"></textarea>
+        <input type="submit" name="submit" placeholder="Submit">
+      </form>
+    </main>
     <footer id="footer">
       <img src="img\logo.png" alt="Code Factory Logo" />
       <p><small>Gergely Izsak - Codefactory 2021</small></p>
